@@ -1,0 +1,130 @@
+{
+  "name": "Md. Abir mahmud",
+  "position": ["Junior React Developer", "Junior Front end Developer"],
+  "career_objective": "As a junior front-end developer, I aim to constantly enhance my  programming skills,develop awe-inspiring web solutions, and bring worth to society by presenting work that astonishes and satisfies my clients.",
+  "contact_info": [
+    {
+      "address": "Satkhira, Bangladesh"
+    },
+    {
+      "phone": ["+8801789-699367 (WhatsApp, Telegram)", "+8801865-232476"]
+    },
+    {
+      "email": "abirmahmud5665@gmail.com"
+    },
+    {
+      "social": [
+        {
+          "name": "GitHub",
+          "link": "https://github.com/abirm09"
+        },
+        {
+          "name": "LinkedIN",
+          "link": "https://www.linkedin.com/in/abirm09/"
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Expertise",
+      "skills": "HTML | CSS | Bootstrap | Tailwind CSS | React | React router | Firebase authentication | JWT"
+    },
+    {
+      "category": "Comfortable",
+      "skills": "JavaScript | ES6 | Express.js | Rest APIs | MongoDB"
+    },
+    {
+      "category": "Familiar",
+      "skills": "Node.js"
+    },
+    {
+      "category": "Tools",
+      "skills": "GIT | VS Code | Figma | GitHub | Netlify | Vercel | ChatGpt"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Fll-School",
+      "links": [
+        { "type": "Live Site", "link": "https://fll-school.web.app/" },
+        { "type": "GitHub", "link": null },
+        {
+          "type": "Client",
+          "link": "https://github.com/abirm09/fll-school-client"
+        },
+        {
+          "type": "Server",
+          "link": "https://github.com/abirm09/fll-school-server"
+        }
+      ],
+      "description": "Fll-School is a full-stack web application with an admin, instructor, and student dashboard.",
+      "features": [
+        "Users can create accounts and log in to access learning materials.",
+        "Students can view and select available classes, and upon successful payment, they will be enrolled in the chosen class.",
+        "The admin has the power to approve or deny posts (new classes) and provide feedback. Admins can also manage user roles, promoting users to admin or instructor. Instructors can add classes."
+      ],
+      "Technologies": "React | React router | Tailwind | Firebase | Express.js | Mongo DB | JWT | Vercel | React query | Axios interceptors | Stripe Payment."
+    },
+    {
+      "name": "Toyzz Haven",
+      "links": [
+        { "type": "Live Site", "link": "https://toyzz-haven.web.app/" },
+        { "type": "GitHub", "link": null },
+        {
+          "type": "Client",
+          "link": "https://github.com/abirm09/toyzz-haven-client"
+        },
+        {
+          "type": "Server",
+          "link": "https://github.com/abirm09/toyzz-haven-server"
+        }
+      ],
+      "description": "Toyzz Haven is a full-stack React application with authentication and database integration.",
+      "features": [
+        "Toyzz Haven is a full-stack application. Here users will find a lot of features. Users can create accounts with their email and password or with Google.",
+        "Users will find a fancy gallery section, a products section, and some other cool sections. In the product section users can find categorized products.",
+        "On the 'Add Products' page, users can add new products to the database. They can also edit and delete their own products on the 'My Products' page."
+      ],
+      "Technologies": "React | React router | Tailwind | Firebase | Express.js | Mongo DB | JWT | Vercel."
+    },
+    {
+      "name": "Recipes Hub",
+      "links": [
+        { "type": "Live Site", "link": "https://recipes-hub-6048a.web.app/" },
+        { "type": "GitHub", "link": null },
+        {
+          "type": "Client",
+          "link": "https://github.com/abirm09/recipes-hub-client"
+        },
+        {
+          "type": "Server",
+          "link": "https://github.com/abirm09/recipes-hub-server"
+        }
+      ],
+      "description": "Recipes Hub is a React single-page application with Firebase authentication.",
+      "features": [
+        "In this project, there are two routes - Home and Blog - with a shared header and footer containing navigation links.",
+        "There is a banner section, a numeric info section, a chef section featuring famous Turkish chefs, and a 'View Recipes' button. Clicking the button redirects logged-in users to the specified chef's age, displaying a banner with their short bio.",
+        "There is also a popular recipe section. On the blog page, a blog with question-answers, and an About section with a download button. After clicking the button a PDF will generate and will be downloaded."
+      ],
+      "Technologies": "React | React router | Tailwind | Firebase | Express.js."
+    }
+  ],
+  "extra Skills": [
+    {
+      "name": "Interpersonal Skill",
+      "skills": "Teamwork, Experienced in learning new technologies quickly, Well communication."
+    },
+    {
+      "name": "Other skills",
+      "skills": "Bitbucket, Photoshop, MS PowerPoint, MS Word."
+    }
+  ],
+  "education": {
+    "college-name": "Satkhira Government College.",
+    "degree": "BA. Honors in Bangla - Jun 1, 2023 ()"
+  },
+  "hobbies": "Codding, Learning new technologies, Social working.",
+  "language": ["Bangla - Native", "English - Comfort", "Hindi - Fluent"]
+}

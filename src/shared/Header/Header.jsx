@@ -3,11 +3,9 @@ import ActiveLinks from "../../components/ActiveLinks/ActiveLinks";
 import usePortfolioContext from "../../Hooks/usePortfolioContext";
 import { BsFillMoonFill, BsFillSunFill } from "react-icons/bs";
 import { setTheme } from "../../util/theme";
-import logoWhite from "../../assets/logoWhite.png";
 
 const Header = () => {
   const { isDark, setIsDark } = usePortfolioContext();
-  console.log(isDark);
   const handleThemeChange = () => {
     setIsDark(!isDark);
     setTheme(!isDark);
@@ -20,18 +18,25 @@ const Header = () => {
       <li>
         <ActiveLinks to="/portfolio">Portfolio</ActiveLinks>
       </li>
-      <div className="btn w-max" onClick={handleThemeChange}>
+      <div className="w-max cursor-pointer ml-3" onClick={handleThemeChange}>
         {isDark ? (
-          <BsFillSunFill className="w-6 h-6 text-white" />
+          <BsFillSunFill
+            title="Switch to Light"
+            className="w-6 h-6 text-white"
+          />
         ) : (
-          <BsFillMoonFill className="w-6 h-6" />
+          <BsFillMoonFill title="Switch to Dark" className="w-6 h-6" />
         )}
       </div>
     </>
   );
   return (
-    <header className="lg:mx-20">
-      <div className="navbar bg-base-100 items-center">
+    <header className="fixed w-full left-0 z-50 top-0">
+      <div
+        className={`navbar ${
+          isDark ? "bg-[hsla(0,0%,100%,.06)]" : "bg-base-200/30"
+        } items-center lg:px-20 backdrop-blur-[10px] w-full`}
+      >
         <div className="navbar-start w-full">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -64,7 +69,11 @@ const Header = () => {
             } transition-all rounded-lg active:scale-95 select-none ml-auto md:ml-0`}
           >
             <img
-              src={isDark ? logoWhite : "https://i.ibb.co/yShvqNz/logo.png"}
+              src={
+                isDark
+                  ? "https://i.ibb.co/BCmtXfc/logo-White.png"
+                  : "https://i.ibb.co/yShvqNz/logo.png"
+              }
               alt="Logo"
             />
           </Link>

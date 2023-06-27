@@ -11,7 +11,7 @@ const setTheme = isDark => {
 };
 const initTheme = () => {
   if (localStorage.getItem("theme") === null) {
-    localStorage.setItem("theme", "light");
+    localStorage.setItem("theme", "dark");
   }
   if (localStorage.getItem("theme") === "light") {
     document
