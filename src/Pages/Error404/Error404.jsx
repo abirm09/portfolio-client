@@ -10,7 +10,7 @@ const Error404 = () => {
         <p>Something went wrong.</p>
         <Link
           to="/"
-          className="bz-backdrop-btn hover:bg-slate-200/20 transition-all"
+          className="cs-backdrop-btn hover:bg-slate-200/20 transition-all"
         >
           Back to home
         </Link>

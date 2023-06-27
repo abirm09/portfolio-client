@@ -6,18 +6,6 @@ const Banner = () => {
   const hour = new Date().getHours();
   return (
     <>
-      <div className="shapes">
-        <span className="anim"></span>
-        <span className="anim"></span>
-        <span className="anim"></span>
-        <span className="anim"></span>
-        <span className="anim"></span>
-        <span className="anim"></span>
-        <span className="anim"></span>
-        <span className="anim"></span>
-        <span className="anim"></span>
-        <span className="anim"></span>
-      </div>
       <div className="cs-container">
         <div className="grid md:grid-cols-2 items-center py-20 gap-16 box">
           <motion.div
@@ -43,11 +31,11 @@ const Banner = () => {
               }`}
             />
           </motion.div>
-          <div className="space-y-4">
+          <div className="space-y-4" data-aos="fade-up">
             <p
               className={`${
                 isDark ? "bg-[hsla(0,0%,100%,.06)]" : "bg-base-300/20"
-              } bz-backdrop-btn`}
+              } cs-backdrop-btn`}
             >
               {hour > 4 && hour < 13
                 ? `🌄 Good Morning`
@@ -73,7 +61,7 @@ const Banner = () => {
                 download="Md. Abir Mahmud Resume.pdf"
                 className={`${
                   isDark ? "bg-[hsla(0,0%,100%,.06)]" : "bg-base-300/20"
-                } bz-backdrop-btn`}
+                } cs-backdrop-btn`}
               >
                 Download Resume
               </a>

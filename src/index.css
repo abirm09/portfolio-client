@@ -12,12 +12,12 @@ body {
     @apply max-w-7xl mx-auto px-4
 }
 
-.bz-backdrop-btn {
+.cs-backdrop-btn {
     @apply backdrop-blur-[10px] inline-block px-6 py-2 rounded-full font-semibold ring-1 ring-base-300 shadow-lg font-inter
 }
 
 /*  */
-.dark-bg {
+.main-layout {
     position: relative;
     background-image: url('./assets/common/bbblurry.svg');
     background-repeat: no-repeat;
@@ -30,7 +30,7 @@ body {
 .shapes {
     width: 100%;
     height: 100vh;
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
     z-index: -2;
@@ -39,8 +39,8 @@ body {
 
 .anim {
     position: absolute;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     background: var(--clr-shape);
     z-index: -1;
 
