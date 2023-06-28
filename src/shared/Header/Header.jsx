@@ -16,7 +16,10 @@ const Header = () => {
         <ActiveLinks to="/">Home</ActiveLinks>
       </li>
       <li>
-        <ActiveLinks to="/portfolio">Portfolio</ActiveLinks>
+        <ActiveLinks to="/resume">Resume</ActiveLinks>
+      </li>
+      <li>
+        <ActiveLinks to="/projects">Projects</ActiveLinks>
       </li>
       <div className="w-max cursor-pointer ml-3" onClick={handleThemeChange}>
         {isDark ? (

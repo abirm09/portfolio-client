@@ -1,0 +1,244 @@
+[
+  {
+    "id": 1,
+    "name": "New year new me",
+    "starting_date": null,
+    "ending_date": null,
+    "live_site": "https://abirm09.github.io/first-assignment-new-year-new-me/",
+    "client": "https://github.com/abirm09/first-assignment-new-year-new-me.git",
+    "server": null,
+    "screenshots": ["https://i.ibb.co/NZvWs9G/New-year-new-me.png"],
+    "description": "A simple webpage without responsive.",
+    "features": null,
+    "technologies": null,
+    "packages": null
+  },
+  {
+    "id": 2,
+    "name": "G3 Architects",
+    "starting_date": null,
+    "ending_date": null,
+    "live_site": "https://abirm09.github.io/second-assignment-g3-architects/",
+    "client": "https://github.com/abirm09/second-assignment-g3-architects",
+    "server": null,
+    "screenshots": ["https://i.ibb.co/ZT2wx1d/G3-Architects.png"],
+    "description": "A simple webpage with responsive.",
+    "features": null,
+    "technologies": null,
+    "packages": null
+  },
+  {
+    "id": 3,
+    "name": "Justice",
+    "starting_date": null,
+    "ending_date": null,
+    "live_site": "https://deft-ganache-8468e3.netlify.app/",
+    "client": "https://github.com/abirm09/justice",
+    "server": null,
+    "screenshots": ["https://i.ibb.co/j6h893c/justice.png"],
+    "description": "A full responsive webpage with popular css framework Bootstrap.",
+    "features": null,
+    "technologies": null,
+    "packages": null
+  },
+  {
+    "id": 4,
+    "name": "Global talk",
+    "starting_date": null,
+    "ending_date": null,
+    "live_site": "https://abirm09.github.io/learning-and-teaching-online/",
+    "client": "https://github.com/abirm09/learning-and-teaching-online",
+    "server": null,
+    "screenshots": ["https://i.ibb.co/WNr97nn/globaltalk.png"],
+    "description": "A beautiful web page using bootstrap. Design is collected from online.",
+    "features": null,
+    "technologies": null,
+    "packages": null
+  },
+  {
+    "id": 5,
+    "name": "Geometry Genius",
+    "starting_date": null,
+    "ending_date": null,
+    "live_site": "https://jazzy-florentine-5c2dd4.netlify.app/",
+    "client": "https://github.com/abirm09/GeometryGenius.git",
+    "server": null,
+    "screenshots": ["https://i.ibb.co/b1sbTyj/geometry.png"],
+    "description": "A full functional web app using simple javascript.",
+    "features": null,
+    "technologies": null,
+    "packages": null
+  },
+  {
+    "id": 6,
+    "name": "AI Universe Hub",
+    "starting_date": null,
+    "ending_date": null,
+    "live_site": "https://incandescent-fudge-aa9163.netlify.app/",
+    "client": "https://github.com/abirm09/aI-universe-hub.git",
+    "server": null,
+    "screenshots": [
+      "https://i.ibb.co/zsnHzVD/AI-Universe-Hub.png",
+      "https://i.ibb.co/xjR5Hc7/modal.png"
+    ],
+    "description": "A cool web app using javaScript and APIs. Used popular framework Tailwind css.",
+    "features": null,
+    "technologies": null,
+    "packages": null
+  },
+  {
+    "id": 7,
+    "name": "Knowledge Cafe",
+    "starting_date": null,
+    "ending_date": null,
+    "live_site": "https://startling-wisp-26f897.netlify.app/",
+    "client": "https://github.com/abirm09/knowledge-cafe",
+    "server": null,
+    "screenshots": ["https://i.ibb.co/HXX3vqR/knowledge-afe.png"],
+    "description": "My first react application. With some simple functionalities.",
+    "features": null,
+    "technologies": null,
+    "packages": null
+  },
+  {
+    "id": 8,
+    "name": "Hunt Job",
+    "starting_date": null,
+    "ending_date": null,
+    "live_site": "https://lucent-pastelito-c503c2.netlify.app/",
+    "client": "https://github.com/abirm09/hunt-job",
+    "server": null,
+    "screenshots": [
+      "https://i.ibb.co/pJxx9J6/hunt-job.png",
+      "https://i.ibb.co/2cWdJ1b/hunt-job-2.png"
+    ],
+    "description": "Hunt job is a Job hunting website. Here users can get some cool features.",
+    "features": [
+      "There are some pages in the website (Home, Statistics, applied job, Blog).",
+      "In Homepage user can find Some Job Category. And some available Job lists. In job list user will find a view details button.",
+      "By clicking the button user will redirect to the available job all details page.Then User will find some details like Job Description, Job responsibility, location, and much more.",
+      "On the details page user will also find a apply now button. By clicking apply now button user apply the job and the job data will store in users local storage.",
+      "In Statics page user will find my assignment mark in a pie chart.",
+      "On the Applied job page user will find the job list that he/she applied for. Users will also find a filter button and can filter the job lists.There is a view details button also.By clicking the button user will redirect the specific job details page.",
+      "And the Blog page users will find some react questions answered."
+    ],
+    "technologies": null,
+    "packages": null
+  },
+  {
+    "id": 9,
+    "name": "Recipes hub",
+    "starting_date": null,
+    "ending_date": null,
+    "live_site": "https://recipes-hub-6048a.web.app/",
+    "client": "https://github.com/abirm09/recipes-hub-client",
+    "server": "https://github.com/abirm09/recipes-hub-server",
+    "screenshots": [
+      "https://i.ibb.co/WtSk8LJ/recipes-hub.png",
+      "https://i.ibb.co/tpz7xwh/chef-details.png"
+    ],
+    "description": "Recipes HUB is a website. There will user find some well known turkish chefs and their famous recipes.",
+    "features": [
+      "In this project there are 2 routes Home and Blog.",
+      "In every route user can find a beautiful footer and header, contains with nav links. With this link user can navigate from one route to another route.",
+      "In homepage, Here user can see a banner section, a section with websites numeric info, a chef section, a popular recipes section and footer.",
+      "On the header user will find a log in button. By clicking the button user will redirect to log in page.",
+      "If the user is already registered he/she can log in from the log in page.",
+      "If the user is not registered user can register with email and password or google or github.",
+      "In Chefs section will find Some turkish famous chefs with their some info like image, name, years of experience, likes, and a view recipes button.",
+      "By clicking the view recipes button if the user is not logged ih he/she will redirect to the log in page , if the user is logged in user will redirect the specified chefs page.",
+      "On the page user can see the a banner contains with users short description, and some info about the chefs and some recipes cards.",
+      "On that card user will find delicious recipe, ingredients and the cooking method.",
+      "user can add the recipe to his/her favorite.",
+      "On the blog page user can find 2 section. On the first section there are some questions answers.",
+      "On the About section user will find a super short description about the page and a download button.",
+      "By clicking the button a pdf file will download contains the short description."
+    ],
+    "technologies": null,
+    "packages": null
+  },
+  {
+    "id": 10,
+    "name": "Toyzz-haven",
+    "starting_date": null,
+    "ending_date": null,
+    "live_site": "https://toyzz-haven.web.app/",
+    "client": "https://github.com/abirm09/toyzz-haven-client",
+    "server": "https://github.com/abirm09/toyzz-haven-server",
+    "screenshots": [
+      "https://i.ibb.co/yP6zsFb/toyzz-haven.png",
+      "https://i.ibb.co/k0MnySx/add-toy.png",
+      "https://i.ibb.co/pnm5Ndd/all-toy.png",
+      "https://i.ibb.co/nLsrrr3/my-toyz.png"
+    ],
+    "description": "Toyzz-haven is a online toy shop. User will find some cool features in this application.",
+    "features": [
+      "In hour home page user will find a navbar, banner, gallery, Products, Random toy, Deals of the day and a footer section.",
+      "On the navbar there some nav links (Home, All toys, My toys, Add a toy, Blog) and company logo.",
+      "On the product section user will find category wise products card. Each card contains a toy information.Like toy name, rating, picture, price and a view details button.",
+      "After clicking the view details button if the user is not logged in he/she will see an alert and after 3 second user will redirect to the login page. If the user is logged in user will redirect to the products's details page.",
+      "On the product details page user will find the product's details and description.",
+      "On the all toys page user will find maximum 20 products in a table. User can search a product by the name of the product. And the search system is very strong. Each table row user will find Details button. After clicking the button user will redirect to the products details. But user must have to log in first to go to the details page.",
+      "On the add a toy page user can add a product by giving some information about a product.",
+      "And the My Toys page user will find all the products that he/she has added.",
+      "User also can update the product details and also can delete the product if he want.",
+      "On the blog page user will find some question answers."
+    ],
+    "technologies": null,
+    "packages": null
+  },
+  {
+    "id": 11,
+    "name": "Fll-School",
+    "starting_date": null,
+    "ending_date": null,
+    "live_site": "https://fll-school.web.app/",
+    "client": "https://github.com/abirm09/fll-school-client",
+    "server": "https://github.com/abirm09/fll-school-server",
+    "screenshots": [
+      "https://i.ibb.co/HVWxMYT/fll-school.png",
+      "https://i.ibb.co/YffMFQj/instructors-added-classes.png",
+      "https://i.ibb.co/8NnW6PK/manage-users.png",
+      "https://i.ibb.co/44tpYsk/payment.png",
+      "https://i.ibb.co/tq4kLMQ/al-classes.png",
+      "https://i.ibb.co/dJBQ5Kc/all-classes.png",
+      "https://i.ibb.co/qk0sKmc/all-instructors.png",
+      "https://i.ibb.co/VBHqGLr/class-history.png"
+    ],
+    "description": "Fll-School is a full-stack web application. There are lots of functionalities in this project.",
+    "features": [
+      " Here users can buy different language courses. There are 3 roles for users. Student, Instructor, admin. A user can perform 1 position at a time.",
+      "User Registration and Authentication: Users can create accounts and log in to access the learning materials and track their progress.",
+      "Course selection: By default, a new user will be a student. The student can see all the approved and available classes and select a class if there are seats available.",
+      "Payment Gateway: After selecting a class, users can make payments using Stripe and enroll in the class upon successful payment.",
+      "Admin role: The admin has the ability to approve or deny posts and provide feedback for denied posts.",
+      "User management: The admin can assign user roles such as admin or instructor.",
+      "Instructor role: Instructors can add classes, which will be pending for admin approval. Approved classes will be displayed on the classes page.",
+      "Theme: The project includes two themes. The default theme is light, but users can change the theme, and the preference will be saved in local storage."
+    ],
+    "technologies": {
+      "Front-end": [
+        "HTML",
+        "CSS",
+        "Tailwind CSS",
+        "React",
+        "React Router",
+        "DaisyUI"
+      ],
+      "Back-end": ["Node.js", "Express.js", "MongoDB"],
+      "Authentication": ["Firebase"],
+      "Deploy": ["Firebase", "Vercel"]
+    },
+    "packages": [
+      "Axios",
+      "React Query",
+      "React Awesome Reveal",
+      "React Stripe JS",
+      "Lottie React",
+      "React Hook Form",
+      "React Icons",
+      "Sweetalert2",
+      "Swiper"
+    ]
+  }
+]

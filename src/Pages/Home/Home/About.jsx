@@ -30,30 +30,24 @@ const About = () => {
               completed so many fullstack projects with react.js and node.js. I
               hardly confident on my skills and ready to get hired.
             </p>
-            <p className="mt-10">
+            <p className="mt-10 font-inter text-justify">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ut
               similique natus odit. Odit nulla beatae nostrum eaque. Laudantium,
               numquam tenetur provident, illum aliquam dolores fugit,
               perferendis at repudiandae quis voluptas nemo. Commodi vitae saepe
               rerum optio ipsum impedit animi repellendus voluptate aut!
-              Blanditiis explicabo temporibus asperiores, recusandae ullam
-              repellat hic veritatis distinctio sed eos porro quos in? Optio
-              tempora iusto amet itaque cum molestias, inventore veniam numquam
-              odit veritatis tenetur aperiam voluptates ratione dolore voluptas
-              quidem est nulla exercitationem? Laborum dolorum nostrum tempora
-              nobis nesciunt commodi suscipit aliquam, aperiam expedita eligendi
-              deleniti dignissimos magni ducimus eveniet saepe fuga itaque!
             </p>
           </div>
           <div>
             <div className="flex flex-wrap gap-10 justify-center md:justify-end">
-              {personality.map(item => (
+              {personality.map((item, index) => (
                 <div
                   key={item.id}
                   className={`text-center w-56 h-56 ring-1 ${
                     isDark ? "ring-slate-800" : "ring-slate-400/60"
                   } p-10 bg-slate-600/20 backdrop-blur-[10px] rounded-lg shadow-lg`}
                   data-aos="fade-up"
+                  data-aos-delay={index * 100}
                 >
                   <img
                     src={item.img}

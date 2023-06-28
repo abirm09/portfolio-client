@@ -31,11 +31,13 @@ const Banner = () => {
               }`}
             />
           </motion.div>
-          <div className="space-y-4" data-aos="fade-up">
+          <div className="space-y-4">
             <p
               className={`${
                 isDark ? "bg-[hsla(0,0%,100%,.06)]" : "bg-base-300/20"
               } cs-backdrop-btn`}
+              data-aos="fade-up"
+              data-aos-delay="0"
             >
               {hour > 4 && hour < 13
                 ? `🌄 Good Morning`
@@ -45,17 +47,17 @@ const Banner = () => {
                 ? `🌚 Good Evening`
                 : "Some thing went wrong"}
             </p>
-            <div>
+            <div data-aos="fade-up" data-aos-delay="100">
               <h2 className="font-inter text-3xl md:text-5xl font-black">
                 I&apos;m Abir Mahmud
               </h2>
               <p>Junior Front end Developer.</p>
             </div>
-            <p className="font-inter">
+            <p className="font-inter" data-aos="fade-up" data-aos-delay="200">
               I am Abir mahmud. A professional web developer with 15+ projects
               and 12-month experience.
             </p>
-            <div>
+            <div data-aos="fade-up" data-aos-delay="300">
               <a
                 href="/Md. Abir Mahmud resume.pdf"
                 download="Md. Abir Mahmud Resume.pdf"
