@@ -12,15 +12,17 @@ const Projects = () => {
     <div className="cs-container mt-20">
       <SectionTitle title="Projects" />
       <div className="flex justify-evenly flex-wrap gap-10 mt-10">
-        {projects.map(project => (
+        {projects.map((project, index) => (
           <div
             key={project.id}
-            className={`w-[400px] h-[450px] md:h-[480px] p-5 ${
+            className={`w-[500px] h-[450px] md:h-[580px] p-5 ${
               isDark ? "ring-slate-800" : "ring-slate-400/60"
             } p-5 bg-slate-600/20 backdrop-blur-[10px] rounded-lg shadow-md`}
+            data-aos="fade-up"
+            data-aos-delay={index * 150}
           >
             <div
-              className="w-full h-48 md:h-60 bg-top hover:bg-bottom rounded-lg"
+              className="w-full h-48 md:h-80 bg-top hover:bg-bottom rounded-lg"
               style={{
                 backgroundImage: `url('${project.screenshots[0]}') `,
                 backgroundSize: "cover",
