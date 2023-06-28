@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "HTML",
+    "img": "https://i.ibb.co/sC0HYGx/html.png",
+    "category": "Expertise"
+  },
+  {
+    "id": 2,
+    "name": "CSS",
+    "img": "https://i.ibb.co/0qvrWqh/css.png",
+    "category": "Expertise"
+  },
+  {
+    "id": 3,
+    "name": "Bootstrap",
+    "img": "https://i.ibb.co/hMjqQ4D/bootstrap.png",
+    "category": "Expertise"
+  },
+  {
+    "id": 4,
+    "name": "Tailwind css",
+    "img": "https://i.ibb.co/z60kXdH/Tailwind.png",
+    "category": "Expertise"
+  },
+  {
+    "id": 5,
+    "name": "React",
+    "img": "https://i.ibb.co/JsYtVhg/react.png",
+    "category": "Expertise"
+  },
+  {
+    "id": 6,
+    "name": "Firebase",
+    "img": "https://i.ibb.co/vwCpqpf/firebase.png",
+    "category": "Expertise"
+  },
+  {
+    "id": 7,
+    "name": "JavaScript",
+    "img": "https://i.ibb.co/YdTYprH/java-Script.png",
+    "category": "Comfortable"
+  },
+  {
+    "id": 8,
+    "name": "Express.js",
+    "img": "https://i.ibb.co/1fRZmNt/expressjs.png",
+    "category": "Comfortable"
+  },
+  {
+    "id": 9,
+    "name": "MongoDB",
+    "img": "https://i.ibb.co/v31QsvG/database.png",
+    "category": "Comfortable"
+  },
+  {
+    "id": 10,
+    "name": "Node.js",
+    "img": "https://i.ibb.co/1mGs8K4/nodejs.png",
+    "category": "Familiar"
+  }
+]

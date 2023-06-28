@@ -50,7 +50,9 @@ const About = () => {
               {personality.map(item => (
                 <div
                   key={item.id}
-                  className="text-center w-56 h-56 ring-1 ring-slate-800 p-10 bg-slate-600/20 backdrop-blur-[10px] rounded-lg"
+                  className={`text-center w-56 h-56 ring-1 ${
+                    isDark ? "ring-slate-800" : "ring-slate-400/60"
+                  } p-10 bg-slate-600/20 backdrop-blur-[10px] rounded-lg shadow-lg`}
                   data-aos="fade-up"
                 >
                   <img
@@ -67,19 +69,6 @@ const About = () => {
           </div>
         </div>
       </div>
-      <p className="mt-10">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, aliquid
-        alias. Unde, ipsam sapiente perferendis dolorum eius quisquam quo
-        repudiandae consequatur officiis ullam incidunt odio quae rem
-        voluptatibus suscipit rerum? Reiciendis mollitia temporibus laboriosam
-        autem? Suscipit fuga, corrupti cupiditate earum a iusto veritatis dolor
-        esse facilis cum delectus distinctio veniam vel eos. Magnam soluta sequi
-        dolore non molestias veritatis atque eveniet, incidunt eaque sed iure
-        obcaecati mollitia ducimus, autem quaerat tempora voluptates velit?
-        Iusto eveniet facilis totam dicta assumenda voluptates commodi optio
-        ipsam ab repellendus voluptate perferendis sit quidem, eligendi veniam
-        magni dolor eos ex, quasi a. Placeat, commodi temporibus.
-      </p>
     </div>
   );
 };
