@@ -11,7 +11,7 @@ const Contact = () => {
     reset,
   } = useForm();
   const onSubmit = data => {
-    fetch("http://localhost:5000/message", {
+    fetch("https://abir-mahmud-server.vercel.app/message", {
       method: "POST",
       headers: {
         "content-type": "application/json",
