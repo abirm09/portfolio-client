@@ -21,6 +21,9 @@ const Header = () => {
       <li>
         <ActiveLinks to="/projects">Projects</ActiveLinks>
       </li>
+      <li className="ring-2 rounded-full font-inter ring-slate-500 shadow-xl my-2 md:my-0 ml-0 md:ml-5 hover:bg-[hsla(0,0%,100%,.06)] transition-all overflow-hidden">
+        <ActiveLinks to="/contact">Contact</ActiveLinks>
+      </li>
       <div className="w-max cursor-pointer ml-3" onClick={handleThemeChange}>
         {isDark ? (
           <BsFillSunFill

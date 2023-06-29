@@ -5,6 +5,7 @@ import Error404 from "../../Pages/Error404/Error404";
 import Resume from "../../Pages/Resume/Resume";
 import Projects from "../../Pages/Projects/Projects";
 import SingleProject from "../../Pages/SingleProject/SingleProject";
+import Contact from "../../Pages/Contact/Contact";
 
 const routes = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const routes = createBrowserRouter([
       {
         path: "/project/:projectName",
         element: <SingleProject />,
+      },
+      {
+        path: "/contact",
+        element: <Contact />,
       },
     ],
   },

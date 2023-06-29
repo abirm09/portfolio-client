@@ -18,7 +18,10 @@ const Main = () => {
         <span className="anim"></span>
       </div>
       <Header />
-      <div className="pt-[82.662px]">
+      <div
+        className="pt-[82.662px]"
+        style={{ minHeight: "calc(100vh - 144px)" }}
+      >
         <Outlet />
       </div>
       <Footer />

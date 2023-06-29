@@ -6,7 +6,7 @@ const Footer = () => {
     <footer
       className={` ${
         isDark ? "bg-[hsla(0,0%,100%,.06)]" : "bg-base-200/30"
-      }  lg:px-20 backdrop-blur-[10px] w-full mt-20 py-5`}
+      }  lg:px-20 backdrop-blur-[10px] w-full py-5 mt-20`}
     >
       <div className="cs-container">
         <div className="grid grid-cols-1 md:grid-cols-2 justify-between gap-3">
