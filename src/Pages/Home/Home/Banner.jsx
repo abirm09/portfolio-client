@@ -74,6 +74,47 @@ const Banner = () => {
                 Hire me
               </Link>
             </div>
+            <div className="flex gap-3">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/abirm09"
+                data-aos="fade-up"
+                data-aos-delay="350"
+              >
+                <img
+                  src="https://i.ibb.co/C8JMmxn/github.png"
+                  className="w-6"
+                  alt="Github"
+                />
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.linkedin.com/in/abirm09/"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <img
+                  src="https://i.ibb.co/k5jPMq1/001-linkedin.png"
+                  className="w-6"
+                  alt="LInkedIn"
+                />
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://web.facebook.com/mdabirm09/"
+                data-aos="fade-up"
+                data-aos-delay="450"
+              >
+                <img
+                  src="https://i.ibb.co/gSszV6K/004-facebook.png"
+                  className="w-6"
+                  alt="LInkedIn"
+                />
+              </a>
+            </div>
           </div>
         </div>
       </div>

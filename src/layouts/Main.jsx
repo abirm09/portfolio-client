@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom";
 import Header from "../shared/Header/Header";
+import Footer from "../shared/Footer/Footer";
 
 const Main = () => {
   return (
@@ -20,6 +21,7 @@ const Main = () => {
       <div className="pt-[82.662px]">
         <Outlet />
       </div>
+      <Footer />
     </div>
   );
 };

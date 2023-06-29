@@ -31,12 +31,6 @@ const Skills = () => {
           ))}
         </div>
       </div>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est ipsa ad
-        similique obcaecati eaque, deleniti repellendus reiciendis laudantium ea
-        impedit veritatis facere fugit? Sed, repudiandae? Obcaecati sunt facilis
-        ipsam quasi.
-      </p>
     </div>
   );
 };
