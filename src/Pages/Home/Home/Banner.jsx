@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import usePortfolioContext from "../../../Hooks/usePortfolioContext";
 import { motion } from "framer-motion";
+import resume from "/Md. Abir Mahmud resume.pdf";
 const Banner = () => {
   const { isDark } = usePortfolioContext();
   const hour = new Date().getHours();
@@ -59,8 +60,8 @@ const Banner = () => {
             </p>
             <div data-aos="fade-up" data-aos-delay="300">
               <a
-                href="/Md. Abir Mahmud resume.pdf"
-                download="Md. Abir Mahmud Resume.pdf"
+                href={resume}
+                download=""
                 className={`${
                   isDark ? "bg-[hsla(0,0%,100%,.06)]" : "bg-base-300/20"
                 } cs-backdrop-btn`}

@@ -4,18 +4,15 @@ const Skills = ({ resumeInfo }) => {
   return (
     <div>
       <Title title="Skills" />
-      <table>
-        <tbody>
-          {resumeInfo.skills.map(info => (
-            <tr key={info.category}>
-              <td>
-                <span className="font-bold">{info.category}: </span>
-                <span>{info.skills}</span>
-              </td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+
+      <ul className="list-disc">
+        {resumeInfo.skills.map(info => (
+          <li key={info.category} className="font-inter ml-5">
+            <span className="font-bold">{info.category} : </span>
+            <span>{info.skills}</span>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 };

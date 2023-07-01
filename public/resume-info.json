@@ -103,7 +103,7 @@
       "Technologies": "React | React router | Tailwind | Firebase | Express.js."
     }
   ],
-  "extra Skills": [
+  "extra_skills": [
     {
       "name": "Interpersonal Skill",
       "skills": "Teamwork, Experienced in learning new technologies quickly, Well communication."
@@ -114,7 +114,7 @@
     }
   ],
   "education": {
-    "college-name": "Satkhira Government College.",
+    "college_name": "Satkhira Government College.",
     "degree": "BA. Honors in Bangla - Jun 1, 2023 ()"
   },
   "hobbies": "Codding, Learning new technologies, Social working.",

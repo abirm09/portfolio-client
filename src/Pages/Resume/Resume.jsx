@@ -1,6 +1,15 @@
-import { useEffect, useState } from "react";
+import { motion } from "framer-motion";
+import { useEffect, useState, useRef } from "react";
 import Skills from "./Skills";
+import ExtraSkill from "./ExtraSkill";
+import Education from "./Education";
+import Hobbies from "./Hobbies";
+import Languages from "./Languages";
+import { useFollowPointer } from "../../util/use-follow-pointer";
+import resume from "/Md. Abir Mahmud resume.pdf";
 const Resume = () => {
+  const ref = useRef(null);
+  const { x, y } = useFollowPointer(ref);
   const [resumeInfo, setResumeInfo] = useState({});
   useEffect(() => {
     fetch("/resume-info.json")
@@ -9,9 +18,30 @@ const Resume = () => {
   }, []);
   return (
     <div className="cs-container mt-20">
+      <div>
+        <motion.div
+          className="fixed z-10 top-0 left-0 box"
+          ref={ref}
+          animate={{ x, y }}
+          transition={{
+            type: "spring",
+            damping: 3,
+            stiffness: 50,
+            restDelta: 0.001,
+          }}
+        >
+          <a
+            href={resume}
+            download=""
+            className="btn z-30 relative  -translate-x-2/4 -translate-y-2/4"
+          >
+            Download
+          </a>
+        </motion.div>
+      </div>
       {resumeInfo.position && (
         <>
-          <div>
+          <div className="relative">
             <div className="grid grid-cols-1 md:grid-cols-2 justify-between gap-10 font-inter ">
               <div>
                 <h2 className="text-3xl font-bold">{resumeInfo?.name}</h2>
@@ -37,8 +67,12 @@ const Resume = () => {
                 ))}
               </div>
             </div>
-            <div className="mt-5">
+            <div className="space-y-5 mt-5">
               <Skills resumeInfo={resumeInfo} />
+              <ExtraSkill resumeInfo={resumeInfo} />
+              <Education resumeInfo={resumeInfo} />
+              <Hobbies resumeInfo={resumeInfo} />
+              <Languages resumeInfo={resumeInfo} />
             </div>
           </div>
         </>
