@@ -15,7 +15,7 @@ const Tools = () => {
   return (
     <div className="cs-container mt-20">
       <SectionTitle title="Tools" />
-      <Marquee className="mt-10">
+      <Marquee className="mt-10" pauseOnHover>
         {tools.map(tool => (
           <div
             key={tool.id}
