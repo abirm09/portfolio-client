@@ -6,6 +6,8 @@ import Resume from "../../Pages/Resume/Resume";
 import Projects from "../../Pages/Projects/Projects";
 import SingleProject from "../../Pages/SingleProject/SingleProject";
 import Contact from "../../Pages/Contact/Contact";
+import Dashboard from "../../layouts/Dashboard";
+import Login from "../../Pages/Login/Login";
 
 const routes = createBrowserRouter([
   {
@@ -33,7 +35,15 @@ const routes = createBrowserRouter([
         path: "/contact",
         element: <Contact />,
       },
+      {
+        path: "login",
+        element: <Login />,
+      },
     ],
+  },
+  {
+    path: "dashboard",
+    element: <Dashboard />,
   },
 ]);
 export default routes;
