@@ -11,7 +11,7 @@ const About = () => {
       .then(data => setPerSonality(data));
   }, []);
   return (
-    <div className="cs-container">
+    <div className="cs-container" id="about">
       <div
         className={`bg-base-200/20 backdrop-blur-[10px] p-3 md:p-10 ring-1 ${
           isDark ? "ring-slate-900" : "ring-slate-300"
@@ -24,18 +24,19 @@ const About = () => {
             <p className="font-inter text-justify">
               Hi,
               <br />
-              Thanks for visiting my portfolio. My Name is Md. Abir mahmud. I am
-              from satkhira, Bangladesh. Currently i am pursuing my Bachelor
-              degree. At the same time, i am a skilled react developer. I have
-              completed so many fullstack projects with react.js and node.js. I
-              hardly confident on my skills and ready to get hired.
+              This is MD Abir mahmud from satkhira, Bangladesh. I am pursuing my
+              Bachelor&apos;s degree while simultaneously being a skilled Junior
+              Full-stack developer. I have completed many full-stack projects
+              with Next.js and Node.js. I am fully confident in my skills and my
+              ability to get hired.
+            </p>
+            <p className="mt-5 font-inter text-justify">
+              Presently, I am learning new advanced technologies and doing
+              industry-standard projects with some of my friends to gain
+              experience in team projects.
             </p>
             <p className="mt-10 font-inter text-justify">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ut
-              similique natus odit. Odit nulla beatae nostrum eaque. Laudantium,
-              numquam tenetur provident, illum aliquam dolores fugit,
-              perferendis at repudiandae quis voluptas nemo. Commodi vitae saepe
-              rerum optio ipsum impedit animi repellendus voluptate aut!
+              Thanks for visiting.
             </p>
           </div>
           <div>

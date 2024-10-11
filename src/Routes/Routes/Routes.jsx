@@ -1,8 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../../layouts/Main";
-import Home from "../../Pages/Home/Home/Home";
+import Home from "../../Pages/Home/Home";
 import Error404 from "../../Pages/Error404/Error404";
-import Resume from "../../Pages/Resume/Resume";
 import Projects from "../../Pages/Projects/Projects";
 import SingleProject from "../../Pages/SingleProject/SingleProject";
 import Contact from "../../Pages/Contact/Contact";
@@ -18,10 +17,6 @@ const routes = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
-      },
-      {
-        path: "/resume",
-        element: <Resume />,
       },
       {
         path: "/projects",

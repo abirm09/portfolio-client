@@ -1,8 +1,8 @@
 import Marquee from "react-fast-marquee";
-import SectionTitle from "../../components/SectionTitle/SectionTitle";
+import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 import { useEffect } from "react";
 import { useState } from "react";
-import usePortfolioContext from "../../Hooks/usePortfolioContext";
+import usePortfolioContext from "../../../Hooks/usePortfolioContext";
 
 const Tools = () => {
   const { isDark } = usePortfolioContext();
@@ -25,8 +25,8 @@ const Tools = () => {
                 : "border-slate-200 bg-slate-300/20"
             }`}
           >
-            <div className="w-48 flex items-center gap-5 font-inter">
-              <img src={tool.img} className="w-14" alt={tool.name} />
+            <div className="w-44 flex items-center gap-5 font-inter">
+              <img src={tool.img} className="w-12" alt={tool.name} />
               <h2 className="text-xl">{tool.name}</h2>
             </div>
           </div>

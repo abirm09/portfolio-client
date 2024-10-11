@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Link as LinkScroll } from "react-scroll";
 import ActiveLinks from "../../components/ActiveLinks/ActiveLinks";
 import usePortfolioContext from "../../Hooks/usePortfolioContext";
 import { BsFillMoonFill, BsFillSunFill } from "react-icons/bs";
@@ -16,7 +17,24 @@ const Header = () => {
         <ActiveLinks to="/">Home</ActiveLinks>
       </li>
       <li>
-        <ActiveLinks to="/resume">Resume</ActiveLinks>
+        <LinkScroll
+          className="font-bold"
+          to="about"
+          smooth={true}
+          duration={500}
+        >
+          About
+        </LinkScroll>
+      </li>
+      <li>
+        <LinkScroll
+          className="font-bold"
+          to="skills"
+          smooth={true}
+          duration={500}
+        >
+          Skills
+        </LinkScroll>
       </li>
       <li>
         <ActiveLinks to="/projects">Projects</ActiveLinks>
@@ -74,14 +92,7 @@ const Header = () => {
               !isDark ? "hover:bg-base-300" : "hover:bg-base-300"
             } transition-all rounded-lg active:scale-95 select-none ml-auto md:ml-0`}
           >
-            <img
-              src={
-                isDark
-                  ? "https://i.ibb.co/BCmtXfc/logo-White.png"
-                  : "https://i.ibb.co/yShvqNz/logo.png"
-              }
-              alt="Logo"
-            />
+            <img src={"/api/i/my-logo-v1"} alt="Logo" />
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">

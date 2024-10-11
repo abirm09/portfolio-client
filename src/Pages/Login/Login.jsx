@@ -4,7 +4,7 @@ const Login = () => {
       <div className="flex justify-center mt-20">
         <form
           className="flex flex-col gap-3 w-full items-center"
-          onSubmit={handleLogin}
+          // onSubmit={}
         >
           <input
             type="email"

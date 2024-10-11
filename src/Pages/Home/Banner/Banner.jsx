@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import usePortfolioContext from "../../../Hooks/usePortfolioContext";
 import { motion } from "framer-motion";
-import resume from "/Md. Abir Mahmud resume.pdf";
+
 const Banner = () => {
   const { isDark } = usePortfolioContext();
   const hour = new Date().getHours();
@@ -25,8 +25,8 @@ const Banner = () => {
             }}
           >
             <img
-              src="https://i.ibb.co/7zGCtfy/md-abir-mahmud.png"
-              alt="MD. Abir mahmud"
+              src="/api/i/abir-mahmud-squire-v1"
+              alt="MD Abir mahmud"
               className={`max-w-[250px] md:max-w-[350px] w-full border-[10px] rounded-full mx-auto md:mr-0 shadow-lg select-none ${
                 isDark ? "bg-orange-500 border-base-200" : "border-base-100"
               }`}
@@ -52,15 +52,15 @@ const Banner = () => {
               <h2 className="font-inter text-3xl md:text-5xl font-black">
                 I&apos;m Abir Mahmud
               </h2>
-              <p>Junior Front end Developer.</p>
+              <p>Junior Full-stack Developer</p>
             </div>
             <p className="font-inter" data-aos="fade-up" data-aos-delay="200">
-              I am Abir mahmud. A professional web developer with 15+ projects
-              and 12-month experience.
+              Experience in developing, deploying, and managing scalable
+              applications with over three years of development expertise.
             </p>
             <div data-aos="fade-up" data-aos-delay="300">
               <a
-                href={resume}
+                href={import.meta.env.VITE_resume_link}
                 download=""
                 className={`${
                   isDark ? "bg-[hsla(0,0%,100%,.06)]" : "bg-base-300/20"
@@ -84,7 +84,7 @@ const Banner = () => {
                 data-aos-delay="350"
               >
                 <img
-                  src="https://i.ibb.co/C8JMmxn/github.png"
+                  src="/api/i/github-color-v2"
                   className="w-6"
                   alt="Github"
                 />
@@ -102,10 +102,11 @@ const Banner = () => {
                   alt="LInkedIn"
                 />
               </a>
+
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://web.facebook.com/mdabirm09/"
+                href="https://web.facebook.com/abirm09/"
                 data-aos="fade-up"
                 data-aos-delay="450"
               >
