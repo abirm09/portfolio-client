@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 import usePortfolioContext from "../../../Hooks/usePortfolioContext";
+import config from "../../../config";
 
 const Skills = () => {
   const { isDark } = usePortfolioContext();
@@ -25,7 +26,7 @@ const Skills = () => {
               data-aos-delay={index * 100}
             >
               <img
-                src={skill.img}
+                src={`${config.img_server}${skill.img}`}
                 alt={skill.name}
                 className="w-20 mx-auto rounded-md"
               />

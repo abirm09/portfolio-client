@@ -2,79 +2,79 @@
   {
     "id": 1,
     "name": "Next Js",
-    "img": "/api/i/nextjs-v1",
+    "img": "/i/nextjs-v1",
     "category": "Expertise"
   },
   {
     "id": 2,
     "name": "Tailwind css",
-    "img": "/api/i/tailwind-css-v1",
+    "img": "/i/tailwind-css-v1",
     "category": "Expertise"
   },
   {
     "id": 3,
     "name": "Node Js",
-    "img": "/api/i/node-js-v1",
+    "img": "/i/node-js-v1",
     "category": "Expertise"
   },
   {
     "id": 4,
     "name": "Express Js",
-    "img": "/api/i/express-js-v1",
+    "img": "/i/express-js-v1",
     "category": "Expertise"
   },
   {
     "id": 5,
     "name": "Python",
-    "img": "/api/i/python-v1",
+    "img": "/i/python-v1",
     "category": "Familiar"
   },
   {
     "id": 6,
     "name": "MongoDB",
-    "img": "/api/i/mongodb-v1",
+    "img": "/i/mongodb-v1",
     "category": "Expertise"
   },
   {
     "id": 7,
     "name": "SQL",
-    "img": "/api/i/sql-v1",
+    "img": "/i/sql-v1",
     "category": "Comfortable"
   },
   {
     "id": 8,
     "name": "Prisma",
-    "img": "/api/i/prisma-v1",
+    "img": "/i/prisma-v1",
     "category": "Comfortable"
   },
   {
     "id": 9,
     "name": "Redis",
-    "img": "/api/i/redis-v1",
+    "img": "/i/redis-v1",
     "category": "Comfortable"
   },
   {
     "id": 10,
     "name": "Firebase",
-    "img": "/api/i/firebase-v1",
+    "img": "/i/firebase-v1",
     "category": "Comfortable"
   },
   {
     "id": 11,
     "name": "Cloud VPS",
-    "img": "/api/i/cloud-vps-v1",
+    "img": "/i/cloud-vps-v1",
     "category": "Comfortable"
   },
   {
     "id": 12,
     "name": "Ubuntu Server",
-    "img": "/api/i/ubuntu-server-v1",
+    "img": "/i/ubuntu-server-v1",
     "category": "Comfortable"
   },
   {
     "id": 13,
     "name": "Wordpress",
-    "img": "/api/i/wordpress-v1",
+    "img": "/i/wordpress-v1",
     "category": "Comfortable"
   }
 ]

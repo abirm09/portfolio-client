@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import usePortfolioContext from "../../../Hooks/usePortfolioContext";
 import { motion } from "framer-motion";
+import config from "../../../config";
 
 const Banner = () => {
   const { isDark } = usePortfolioContext();
@@ -25,7 +26,7 @@ const Banner = () => {
             }}
           >
             <img
-              src="/api/i/abir-mahmud-squire-v1"
+              src={`${config.img_server}/i/abir-mahmud-squire-v1`}
               alt="MD Abir mahmud"
               className={`max-w-[250px] md:max-w-[350px] w-full border-[10px] rounded-full mx-auto md:mr-0 shadow-lg select-none ${
                 isDark ? "bg-orange-500 border-base-200" : "border-base-100"
