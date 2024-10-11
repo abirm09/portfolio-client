@@ -4,7 +4,6 @@ import ActiveLinks from "../../components/ActiveLinks/ActiveLinks";
 import usePortfolioContext from "../../Hooks/usePortfolioContext";
 import { BsFillMoonFill, BsFillSunFill } from "react-icons/bs";
 import { setTheme } from "../../util/theme";
-import config from "../../config";
 
 const Header = () => {
   const { isDark, setIsDark } = usePortfolioContext();
@@ -93,7 +92,7 @@ const Header = () => {
               !isDark ? "hover:bg-base-300" : "hover:bg-base-300"
             } transition-all rounded-lg active:scale-95 select-none ml-auto md:ml-0`}
           >
-            <img src={`${config.img_server}/i/my-logo-v1`} alt="Logo" />
+            <img src={`/api/i/my-logo-v1`} alt="Logo" />
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
